@@ -7,8 +7,8 @@ require(tidyquant)
 
 
 #read the actual data from the file
-#needs to change directory to reflect structure on github??
-aa <- read.csv("~/Desktop/mrtg_actuals.csv")
+#structure as per github project 
+aa <- read.csv("~/data/mrtg_actuals.csv")
 
 #get the variables, maybe not wholly necessary... could use the variable names, still need to reformat dates though
 actual_mrtg   <- aa$due
